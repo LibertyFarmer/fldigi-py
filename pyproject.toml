@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fldigi-py"
+version = "0.1.0"
+description = "Modern Python client for FLDIGI XML-RPC"
+authors = [{name = "LibertyFarmer", email = "your@email"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Communications :: Ham Radio",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/LibertyFarmer/fldigi-py"
+Repository = "https://github.com/LibertyFarmer/fldigi-py"
